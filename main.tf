@@ -14,7 +14,7 @@ terraform {
  }
 }
 resource "random_pet" "lab"{
-  length = 2
+  length = 3
 }
 output "pet_name"{
   value = random_pet.lab.id
